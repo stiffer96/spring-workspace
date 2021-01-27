@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	
+    <!-- Define your beans here -->
+    
+    <!-- 
+		Add a logger config to see logging messages.		
+		- For more detailed logs, set values to "FINEST"
+		- For info on logging levels, see: http://www.vogella.com/tutorials/Logging/article.html
+	 -->
+	 <!-- for logging information
+    <bean id="myLoggerConfig" class="com.jerry.springapp.MyLoggerConfig" init-method="initLogger">
+    	<property name="rootLoggerLevel" value="FINE" />
+    	<property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+     -->
+     
+     <!-- load properties file : sport.properties -->
+    <context:property-placeholder location="classpath:sport.properties" />
+    
+    <!-- define the dependency -->
+    <bean id="myFortuneService"
+    		class="com.jerry.springapp.HappyFortuneService">
+    	</bean>
+    
+    <bean id="randomFortuneService"
+    		class="com.jerry.springapp.RandomFortuneService">
+    </bean>
+    
+    <bean id="basketballCoach"
+    	class="com.jerry.springapp.BasketballCoach">
+    	
+    	<!-- set up setter injection -->
+    	<property name="fortuneService" ref="randomFortuneService" />
+    	
+    </bean>
+    
+ 	<bean id="myCoach"
+ 		class="com.jerry.springapp.TrackCoach">	 	
+ 		<constructor-arg ref="myFortuneService" />	
+ 	</bean>
+	
+	<bean id="myVCoach"
+ 		class="com.jerry.springapp.VolleyCoach">
+ 		
+ 		 <!-- set up constructor injection -->	
+ 		<constructor-arg ref="myFortuneService" /> 		
+ 	</bean>
+    
+    <bean id="myCricketCoach"
+        class="com.jerry.springapp.CricketCoach">
+         
+         <!-- set up setter injection --> 
+        <property name="fortuneService" ref="myFortuneService"/>
+        
+        <!-- Inject literal values -->
+        <property name="emailAddress" value="${foo.email}" />
+        <property name="team" value="${foo.team}" />       
+    </bean>
+    
+</beans>
+
+
+
+
+
