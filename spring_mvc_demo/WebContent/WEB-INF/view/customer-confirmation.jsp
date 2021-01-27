@@ -9,7 +9,20 @@
 <body>
 
 	<h2>Customer Confirmation page</h2>
+	<br>
 	
 	The Customer is confirmed : ${customer.firstName} ${customer.lastName}
+	
+	<br><br>
+	
+	Free Passes for events  : ${customer.freePasses }
+	
+	<br><br>
+	
+	Postal Code : ${customer.postalCode }
+	
+	<br><br>
+	
+	Course Code : ${customer.courseCode }
 </body>
 </html>
