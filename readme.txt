@@ -22,3 +22,9 @@ Day Wednesday : 27-01-2021
 	--> End for the day : Time - 10:50 PM
 
 +----------------------------------------------------------------------------------------------------------------+
+Day Friday : 29-01-2021
+	
+	--> closed mvc project covered in section 15 ,16 ,17.
+	--> created new project 'hibernate_demo' for hibernate project section 18
+	--> Added all jars related to hibernate and mysql connector j
+	-->
