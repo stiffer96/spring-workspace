@@ -37,7 +37,7 @@ Day Friday : 29-01-2021
 +----------------------------------------------------------------------------------------------------------------+
 Day Saturday : 30-01-2021
 	
-	--> covered section 19 almost half 
+	--> covered section 19 , 20 and 21 almost half 
 	--> Saving objects to database through hibernate also learn cool things about auto_increment in primary keys.
 		we can set auto_increment can be done from a paricular vale eg: below
 		'ALTER TABLE student AUTO_INCREMENT=3000' - Now increment starts from 3000 value.
@@ -46,7 +46,18 @@ Day Saturday : 30-01-2021
 		--> App    - CreateStudentDemoApp and PrimaryKeyDemoApp
 	--> git commit 'Learn objects mapping to database and primary keys'
 
++----------------------------------------------------------------------------------------------------------------+
+Day Sunday : 31-01-2021
+	
+	--> today covered section 21 ,learned HQL ( hibernate query language )
+	--> Performed CRUD operation with HQL.
+	--> Files created:-
+		--> ReadStudentDemo.java
+		--> UpdateStudentDemo.java
+		--> DeleteStudentDemo.java
+	--> git commit " Performed CRUD operations with hibernate section 21 completed 
 
++----------------------------------------------------------------------------------------------------------------+
 
 
 
