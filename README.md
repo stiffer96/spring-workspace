@@ -4,7 +4,7 @@ All course related files and projects (Udemy Spring and hibernate with spring bo
 Daily Logging :
 
 +------------------------------------------------------------------------------------------------------------+
-Day Wednesday : 27-01-2021 
+Day Wednesday : 27-Jan-2021 
 
 	--> created spring-workspace repo on github
 	--> added spring course projects to github ( commit - added course projects to github till section-14 )
@@ -25,7 +25,7 @@ Day Wednesday : 27-01-2021
 	--> End for the day : Time - 10:50 PM
 
 +----------------------------------------------------------------------------------------------------------------+
-Day Friday : 29-01-2021
+Day Friday : 29-Jan-2021
 	
 	--> closed mvc project covered in section 15 ,16 ,17.
 	--> created new project 'hibernate_demo' for hibernate project section 18
@@ -35,7 +35,7 @@ Day Friday : 29-01-2021
 			 (loaded all jars with mysql connector and first successful connection programme ) "
 
 +----------------------------------------------------------------------------------------------------------------+
-Day Saturday : 30-01-2021
+Day Saturday : 30-Jan-2021
 	
 	--> covered section 19 , 20 and 21 almost half 
 	--> Saving objects to database through hibernate also learn cool things about auto_increment in primary keys.
@@ -47,7 +47,7 @@ Day Saturday : 30-01-2021
 	--> git commit 'Learn objects mapping to database and primary keys'
 
 +----------------------------------------------------------------------------------------------------------------+
-Day Sunday : 31-01-2021
+Day Sunday : 31-Jan-2021
 	
 	--> today covered section 21 ,learned HQL ( hibernate query language )
 	--> Performed CRUD operation with HQL.
@@ -56,6 +56,14 @@ Day Sunday : 31-01-2021
 		--> UpdateStudentDemo.java
 		--> DeleteStudentDemo.java
 	--> git commit " Performed CRUD operations with hibernate section 21 completed 
+
++----------------------------------------------------------------------------------------------------------------+
+Day Monday : 01-Feb-2021
+
+	--> created new project 'hibernate_practice_activity' for Practice activity #8 section 21
+	--> performed all CRUD operation as learnt before.
+	--> git commit "one more project hibernate_practice_activity completed from section 21 ".
+	
 
 +----------------------------------------------------------------------------------------------------------------+
 
