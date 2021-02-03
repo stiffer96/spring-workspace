@@ -66,7 +66,18 @@ Day Monday : 01-Feb-2021
 	
 
 +----------------------------------------------------------------------------------------------------------------+
+Day Wednesday : 03-Feb-2021
 
-
-
+	--> Completed section 22 hibernate advanced mapping and 23 @OneToOne mapping almost
+	--> Learn unidirection  and bidirectional relationshib between tables
+	--> Learnt what is cascading how it relate with its associate methods
+	--> Created File :-
+		--> Project hb-01-one-to-one-uni : for uni directional
+			--> Instructor.java and InstructorDetail.java  ( Entities)
+			--> CreateDemo.java and DeleteDemo.java ( apps ) 
+		--> Project hb-01-one-to-one-bi : for bi directional
+			--> Instructor.java and InstructorDetail.java  ( Entities)
+			--> MainAppBidirectional ( app ) 
+	--> git commit "Learnt @OneToOne mapping with hibernate and also Cascade relationships"
++----------------------------------------------------------------------------------------------------------------+
 
