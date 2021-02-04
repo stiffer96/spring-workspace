@@ -19,12 +19,11 @@ public class MainAppBidirectional {
 								.addAnnotatedClass(Instructor.class)
 								.addAnnotatedClass(InstructorDetail.class)
 								.buildSessionFactory();
-		
+		//create session
+		Session session = factory.getCurrentSession();
 		try {
 			
-			//create session
-			Session session = factory.getCurrentSession();
-			
+				
 			
 			//begin transaction
 			session.beginTransaction();
@@ -48,7 +47,13 @@ public class MainAppBidirectional {
 			//print out acknowledgement
 			System.out.println("yaayyy ! we did it bidirectional mapping");
 		}
+		catch(Exception exc) {
+			exc.printStackTrace();
+		}
 		finally {
+			//handle leak issue
+			session.close();
+			
 			factory.close();
 		}
 		

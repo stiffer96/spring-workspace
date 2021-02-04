@@ -80,4 +80,16 @@ Day Wednesday : 03-Feb-2021
 			--> MainAppBidirectional ( app ) 
 	--> git commit "Learnt @OneToOne mapping with hibernate and also Cascade relationships"
 +----------------------------------------------------------------------------------------------------------------+
+Day Thursday : 04-Feb-2021
 
+	--> completed 23 section @OneToMany
+	--> Learnt exception handling
+		--> Files : Project - hb-01-one-to-one-bi , MainAppBidirectional.java
+	--> Deleted Instructor without deleting instructor
+	--> removed link between bi directional link
+	--> Files : Project - hb-01-one-to-one , App - DeleteInstructorDetailDemo.java
+	--> Started @OneToMany took overview
+	--> git commit "Learnt Exception handling and removing link between Bidirection mapping"
+
+
++----------------------------------------------------------------------------------------------------------------+

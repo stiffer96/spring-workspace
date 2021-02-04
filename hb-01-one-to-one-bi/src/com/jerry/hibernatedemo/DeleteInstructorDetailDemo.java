@@ -9,7 +9,7 @@ import com.jerry.hibernatedemo.entity.InstructorDetail;
 
 
 
-public class DeleteDemo {
+public class DeleteInstructorDetailDemo {
 
 	public static void main(String[] args) {
 		
@@ -30,19 +30,25 @@ public class DeleteDemo {
 			session.beginTransaction();
 			
 			//get the instructor by primary key
-			int theId = 1;
-			Instructor tempInstructor =
-					session.get(Instructor.class, theId);
+			int theId =3;
+			InstructorDetail tempInstructorDetail =
+					session.get(InstructorDetail.class, theId);
 			
-			System.out.println("\n FoundInstructor : "+ tempInstructor);
+			System.out.println("\n Instructor details : " + tempInstructorDetail);
 			
-			//delete object
-			System.out.println("\n Deleting Instructor : "+ tempInstructor);
+			//getting instructor associated with it
+			Instructor tempInstructor = tempInstructorDetail.getTheInstructor();
 			
-			if(tempInstructor != null) {
-				//note all object associate with it
-				//also deleted due to cascade type all selected in one to one relation
-				session.delete(tempInstructor);
+			System.out.println("\n Instructor details : " + tempInstructor);
+			
+			//Deleting only tempInstructordetail without its associated object
+			//remove bidirection link between instructor and instructor detail
+			
+			tempInstructorDetail.getTheInstructor().setInstructorDetail(null);
+			
+			if(tempInstructorDetail != null) {
+				//now it will delte only the tempInstructor detail as we removed the link between them above
+				session.delete(tempInstructorDetail);
 			}
 			
 			//commit the changes
