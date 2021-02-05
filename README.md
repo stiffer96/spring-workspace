@@ -82,7 +82,7 @@ Day Wednesday : 03-Feb-2021
 +----------------------------------------------------------------------------------------------------------------+
 Day Thursday : 04-Feb-2021
 
-	--> completed 23 section @OneToMany
+	--> completed 23 section @OneToOne
 	--> Learnt exception handling
 		--> Files : Project - hb-01-one-to-one-bi , MainAppBidirectional.java
 	--> Deleted Instructor without deleting instructor
@@ -91,5 +91,15 @@ Day Thursday : 04-Feb-2021
 	--> Started @OneToMany took overview
 	--> git commit "Learnt Exception handling and removing link between Bidirection mapping"
 
+
++----------------------------------------------------------------------------------------------------------------+
+Day Friday : 05-Feb-2021
+
+	--> Completed 24 section @OneToMany mappings
+	--> Learnt all CRUD operations related to one to many mapping
+	--> Files :
+		--> Project - hb-03-one-to-many-bi 
+		--> Entity - Course.java (added) Apps- CreateCourseDemo, CreateInstructorDemo
+	--> git commit "Learnt @OneToMany mapping and all CRUD operations "
 
 +----------------------------------------------------------------------------------------------------------------+
