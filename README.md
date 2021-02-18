@@ -103,3 +103,14 @@ Day Friday : 05-Feb-2021
 	--> git commit "Learnt @OneToMany mapping and all CRUD operations "
 
 +----------------------------------------------------------------------------------------------------------------+
+Day Thursday : 18-Feb-2021
+
+	--> Completed section 25th and 26th
+	--> Learnt Lazy vs Eager Loading and One to Many Unidirectional mapping with hibernate
+	--> also added database scripts which is used in projects ( Folder : Database Scripts )
+	--> created two projects for same
+	--> For one to manu uni , 
+		-->Updated : Course.Java , created : Reviews.java ( One course can have many reviews )
+	--> git commit "Learnt Lazy vs Eager Loading and One to Many Unidirectional mapping with hibernate , 
+			added Database Scripts folder"
++----------------------------------------------------------------------------------------------------------------+
