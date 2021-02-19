@@ -114,3 +114,13 @@ Day Thursday : 18-Feb-2021
 	--> git commit "Learnt Lazy vs Eager Loading and One to Many Unidirectional mapping with hibernate , 
 			added Database Scripts folder"
 +----------------------------------------------------------------------------------------------------------------+
+Day Friday : 19-Feb-2021
+
+	--> Completed section 28th Hibernate @ManyToMany mapping
+	--> In this section ,learnt student can have many courses and vice-versa
+	--. Also learnt able Join table which connect both tables by storing their id's
+	--> Use @JoinTable annotion for same in both classes
+	--> Created all CRUD application for same
+	--> Created project :  'hb-05-many-to-many' tables
+	--> git commit "Learnt @ManyToMany mapping with Student and Course classes also about @JoinTable annotation."
++----------------------------------------------------------------------------------------------------------------+
