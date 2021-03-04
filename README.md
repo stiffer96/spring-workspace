@@ -124,3 +124,17 @@ Day Friday : 19-Feb-2021
 	--> Created project :  'hb-05-many-to-many' tables
 	--> git commit "Learnt @ManyToMany mapping with Student and Course classes also about @JoinTable annotation."
 +----------------------------------------------------------------------------------------------------------------+
+Day Thursay : 04-Mar-2021
+
+	--> created folder 'SpringJarFiles' to store required jar files for spring app
+	--> created folder 'HibernateJarFiles' to store hibernate jar files
+	--> store database script file in 'DatabaseScripts' folder of spring mvc web project
+	--> create project 'web-customer-tracker' spring mvc web poject
+	--> config the development environment for loaded all required jar files
+	--> also tested the database connection with 'TestDbServlet.java'
+	--> git commit " today setup a web project with spring hibernate and spring mvc ,
+			loaded all jar files and config development environment, 
+			also tested database connection, 
+			created database 'web_customer_tracker' and cutomer table with some entries, 
+			created new database user 'springstudent' with password spring 'student' also"
++----------------------------------------------------------------------------------------------------------------+
