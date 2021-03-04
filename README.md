@@ -126,8 +126,6 @@ Day Friday : 19-Feb-2021
 +----------------------------------------------------------------------------------------------------------------+
 Day Thursay : 04-Mar-2021
 
-	--> created folder 'SpringJarFiles' to store required jar files for spring app
-	--> created folder 'HibernateJarFiles' to store hibernate jar files
 	--> store database script file in 'DatabaseScripts' folder of spring mvc web project
 	--> create project 'web-customer-tracker' spring mvc web poject
 	--> config the development environment for loaded all required jar files
