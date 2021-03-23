@@ -136,3 +136,11 @@ Day Thursay : 04-Mar-2021
 			created database 'web_customer_tracker' and cutomer table with some entries, 
 			created new database user 'springstudent' with password spring 'student' also"
 +----------------------------------------------------------------------------------------------------------------+
+Day Tuesday : 23-Mar-2021	
+
+	--> Created folder spring course which contain all starter files and solution of the course
+	--> today completed section 28 , created view to list customee that is working with customer controller
+	--> need to move to section 29 tomorrow.
+	--> git commit -m "Section 28 completed created working customer web mvc app and also created 
+			Spring course folder which store all courses files"
++----------------------------------------------------------------------------------------------------------------+

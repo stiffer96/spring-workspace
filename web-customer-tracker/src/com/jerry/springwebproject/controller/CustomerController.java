@@ -1,6 +1,7 @@
 package com.jerry.springwebproject.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -8,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CustomerController {
 	
 	@RequestMapping("/list")
-	public String listCustomer() {
+	public String listCustomer(Model theModel) {
 		return "list-customer";
 	}
 
