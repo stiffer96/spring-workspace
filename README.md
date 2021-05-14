@@ -144,3 +144,18 @@ Day Tuesday : 23-Mar-2021
 	--> git commit -m "Section 28 completed created working customer web mvc app and also created 
 			Spring course folder which store all courses files"
 +----------------------------------------------------------------------------------------------------------------+
+Day Friday: 14-May-2021	
+
+	-->Today after a long time i am commiting
+	--> I have learnt all section till 55 , but no practical
+	--> Topics learnt - Spring AOP( Aspect oriendted programming, pointcut, advices )
+			  - Spring Security Forms and roles ,
+			  - Maven and Spring MVC ,also done some practical of MVC ( web-customer-tracker : project)
+	--> Today completed section 56 and 57 and its practical also 
+	--> Topic , JSON Data binding with Jackson Api.
+	--> Converting POJO to JSON or Map JSON Data to POJO.
+	--> Project : jackson-data-binding-demo , Classes : Student.java , Driver.java
+	--> Folder- Data , containing files : sample-lite.json , json-output-from-POJO.json.
+	--> Git commit "Started Spring Rest Services topic , today i have learned JSON data binding with Jackson Api"
+	
++----------------------------------------------------------------------------------------------------------------+

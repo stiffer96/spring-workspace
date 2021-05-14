@@ -1,0 +1,14 @@
+{
+	"id" : 10 ,
+	"firstName" : "Sourav",
+	"lastName" : "Choudhary",
+	"active" : true,
+	"address" : {
+					"city": "Agra",
+					"landmark" : "Water treatment Plant",
+					"country" : "India",
+					"zipCode" : "282005"
+				},
+	"languages" : ["java","C#","Go","Ruby"],
+	"sample" :"To check @JsonIgnoreProperties annotation"
+}
