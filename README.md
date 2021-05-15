@@ -159,3 +159,14 @@ Day Friday: 14-May-2021
 	--> Git commit "Started Spring Rest Services topic , today i have learned JSON data binding with Jackson Api"
 	
 +----------------------------------------------------------------------------------------------------------------+
+Day Friday: 14-May-2021	
+
+	--> Today learned section 58 , Spring rest controller
+	--> Http methods and status codes 
+	--> Created rest controller whih return text/plain "Hello World"
+	--> Project : spring-rest-demo , 
+	--> Classes : DemoConfig ( Java configuration class ) , MyDemoServletIniatilizer ( Dispatcher servlet )
+		      HelloController ( Rest Controller )
+	-->git commit "Created first rest api web app which return Hello World"
+	
++----------------------------------------------------------------------------------------------------------------+
