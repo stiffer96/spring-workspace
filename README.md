@@ -159,7 +159,7 @@ Day Friday: 14-May-2021
 	--> Git commit "Started Spring Rest Services topic , today i have learned JSON data binding with Jackson Api"
 	
 +----------------------------------------------------------------------------------------------------------------+
-Day Friday: 14-May-2021	
+Day Friday: 15-May-2021	
 
 	--> Today learned section 58 , Spring rest controller
 	--> Http methods and status codes 
@@ -169,4 +169,17 @@ Day Friday: 14-May-2021
 		      HelloController ( Rest Controller )
 	-->git commit "Created first rest api web app which return Hello World"
 	
++----------------------------------------------------------------------------------------------------------------+
+Day Friday: 16-May-2021	
+
+	--> Today learned section 59 and 60 ,
+	--> Getting list of students as JSON wih rest service
+	--> Also one student by sending path variable 'studentId'.
+	--> Jackson and Spring will do conversion of POJO's into JSON automatically.
+	--> Created entity package with class 'Student.java'
+	--> Created a controller to deal with student - 'StudentController.java'.
+	--> Also Learned about @PostConstruct annotation - the method use this annotation will load once when 
+		bean created.
+	--> @PathVariable annotation used to get param from URI path.
+	--> git commit "Getting list of Students in JSON also one student with path variable studentId "
 +----------------------------------------------------------------------------------------------------------------+
