@@ -183,3 +183,23 @@ Day Friday: 16-May-2021
 	--> @PathVariable annotation used to get param from URI path.
 	--> git commit "Getting list of Students in JSON also one student with path variable studentId "
 +----------------------------------------------------------------------------------------------------------------+
+Day Friday: 16-May-2021	
+
+	--> Today completed section 61, Exception handling in spring and rest application.
+	--> For now we have stored Students in ArrayList for temporary basis.
+	--> And if we search student with id greater than its size or less thann 0 , then a exception is thrown
+		OutOfBoundException , and also when we provide any string in place of id then a exception is thrown 
+		ConversionMisMatch , sting to int.
+		to deal with this problem we need to do exception handling.
+	--> Project :- spring-rest-demo
+	--> Package :- com.jerry.rest.exception (define exception extends RuntimeException and override methods),
+		       com.jerry.rest.exception_handler( for defining exception handler for handling global 
+							exception with annotation @ControllerAdvice)
+	--> Files :- StudentErrorResponse.java ( entity) , StudentNotFoundException ( exception ),
+			StudentExceptionHandler ( exception_handler are in this class )
+	--> @ControllerAdvice :- annotation is use case of real time AOP ,when any exception raised ,it searched 
+				for this annotation then run specific type of exception handler.
+	--> Also mentioned 'com.jerry.rest.exception_handler' package in @ComponentScan , in config class.
+	--> git commit "Learned Exception handling in rest application by creating custom exception 
+			and also the custom error response"
++----------------------------------------------------------------------------------------------------------------+
