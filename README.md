@@ -183,7 +183,7 @@ Day Friday: 16-May-2021
 	--> @PathVariable annotation used to get param from URI path.
 	--> git commit "Getting list of Students in JSON also one student with path variable studentId "
 +----------------------------------------------------------------------------------------------------------------+
-Day Friday: 16-May-2021	
+Day Friday: 17-May-2021	
 
 	--> Today completed section 61, Exception handling in spring and rest application.
 	--> For now we have stored Students in ArrayList for temporary basis.
@@ -202,4 +202,15 @@ Day Friday: 16-May-2021
 	--> Also mentioned 'com.jerry.rest.exception_handler' package in @ComponentScan , in config class.
 	--> git commit "Learned Exception handling in rest application by creating custom exception 
 			and also the custom error response"
++----------------------------------------------------------------------------------------------------------------+
+Day Friday: 17-May-2021	
+
+	--> Today completed section 62 ,63 , spring rest crud app
+	--> created spring and rest crud app using hibernate
+	--> project : - spring-crm-rest-app 
+	--> Include all dependencies in POM.xml file
+	--> ** use the compatible version only used in this project
+	--> git commit " Created project for CRUD operation with databasee using spring , rest, hibernate and 
+			its working "
+
 +----------------------------------------------------------------------------------------------------------------+
