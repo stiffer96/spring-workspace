@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.jerry.crm.entity.Customer;
+import com.jerry.crm.exception.CustomerNotFoundException;
 
 @Repository
 public class CustomerDaoImpl implements CustomerDAO {
@@ -28,8 +29,18 @@ public class CustomerDaoImpl implements CustomerDAO {
 	}
 
 	public Customer getCustomer(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		Session currentSession = sessionFactory.getCurrentSession();
+		
+		Customer theCustomer = currentSession.get(Customer.class, id);
+		
+		System.out.println(">> Customer "+theCustomer);
+		
+		if(theCustomer == null) {
+			throw new CustomerNotFoundException("Student with id - "+id+" not found");
+		}
+		
+		return theCustomer;
 	}
 
 }

@@ -214,3 +214,11 @@ Day Friday: 17-May-2021
 			its working "
 
 +----------------------------------------------------------------------------------------------------------------+
+Day Friday: 17-May-2021	
+
+	--> Today worked on exception handling if id not found or type mismatch exception occurs.
+	--> create package for exception handler , entity for error response and a custom exception.
+	--> Now its handling exception smoothly.
+	--> git commit -m "Worked on handling exception in the same CRUD project with database"
+
++----------------------------------------------------------------------------------------------------------------+
