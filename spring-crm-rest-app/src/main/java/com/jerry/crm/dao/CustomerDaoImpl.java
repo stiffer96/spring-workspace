@@ -43,4 +43,34 @@ public class CustomerDaoImpl implements CustomerDAO {
 		return theCustomer;
 	}
 
+	public void saveOrUpdateCustomer(Customer theCustomer) {
+		
+		Session session = sessionFactory.getCurrentSession();
+		
+		/*
+		 * Below method is to save or update the customer by same method
+		 * if id= null or 0 , then it will insert new customer( for this id is set to 0 explicitly
+		 * if id != null then it will update the customer
+		 */
+		session.saveOrUpdate(theCustomer);
+		
+		
+	}
+
+	public String deleteCustomer(int id) {
+		
+		Session session = sessionFactory.getCurrentSession();
+		
+		Customer theCustomer = session.get(Customer.class, id);
+		
+		//if session returns null ,the exception is handled below otherwise delete
+		if(theCustomer == null) {
+			throw new CustomerNotFoundException("Customer with id : "+id+" not found !");
+		}
+		
+		session.delete(theCustomer);
+		
+		return "Customer with id:-  "+id+" is deleted.";
+	}
+
 }

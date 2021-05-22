@@ -203,7 +203,7 @@ Day Friday: 17-May-2021
 	--> git commit "Learned Exception handling in rest application by creating custom exception 
 			and also the custom error response"
 +----------------------------------------------------------------------------------------------------------------+
-Day Friday: 17-May-2021	
+Day Friday: 18-May-2021	
 
 	--> Today completed section 62 ,63 , spring rest crud app
 	--> created spring and rest crud app using hibernate
@@ -214,11 +214,22 @@ Day Friday: 17-May-2021
 			its working "
 
 +----------------------------------------------------------------------------------------------------------------+
-Day Friday: 17-May-2021	
+Day Friday: 19-May-2021	
 
 	--> Today worked on exception handling if id not found or type mismatch exception occurs.
 	--> create package for exception handler , entity for error response and a custom exception.
 	--> Now its handling exception smoothly.
 	--> git commit -m "Worked on handling exception in the same CRUD project with database"
 
++----------------------------------------------------------------------------------------------------------------+
+Day Friday: 19-May-2021	
+
+	--> Completed section till 69.
+	--> Today worked on SaveOrUpdate api and delete api
+	--> Learn about session ( saveOrUpdate() method ) which will save objet if id is not provided in response
+		or it is 0 or null , and if id is provided then this method will update the customer.
+	--> CRUD database project with REST ,hibernate and Spring is completed now
+	--> All operations are now working fine with exception handling
+	--> Now moving forward to learn section 70 ( Spring Boot )
+	--> git commit -m "CRM project is completed now with its CRUD APIs and exception handling".
 +----------------------------------------------------------------------------------------------------------------+

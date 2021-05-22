@@ -10,6 +10,9 @@ public interface CustomerDAO {
 	
 	public Customer getCustomer(int id);
 	
+	public void saveOrUpdateCustomer(Customer theCustomer);
+	
+	public String deleteCustomer(int id);
 	
 	
 }

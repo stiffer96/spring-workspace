@@ -25,4 +25,17 @@ public class CustomerService {
 	public Customer getSingleCustomer(int id) {
 		return customerDao.getCustomer(id);
 	}
+	
+	@Transactional
+	public Customer saveOrUpdateCustomer(Customer theCustomer) {
+		
+		customerDao.saveOrUpdateCustomer(theCustomer);
+		
+		return theCustomer;
+	}
+	
+	@Transactional
+	public String deleteCustomer(int id) {
+		return customerDao.deleteCustomer(id);
+	}
 }

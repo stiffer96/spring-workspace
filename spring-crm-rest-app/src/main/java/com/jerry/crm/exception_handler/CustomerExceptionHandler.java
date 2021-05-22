@@ -21,7 +21,7 @@ public class CustomerExceptionHandler {
 		error.setTimestamp(System.currentTimeMillis());
 		
 		
-		return new ResponseEntity(error,HttpStatus.NOT_FOUND);
+		return new ResponseEntity<CustomerErrorResponse>(error,HttpStatus.NOT_FOUND);
 	}
 	
 	@ExceptionHandler
@@ -34,6 +34,6 @@ public class CustomerExceptionHandler {
 		error.setTimestamp(System.currentTimeMillis());
 		
 		
-		return new ResponseEntity(error,HttpStatus.BAD_REQUEST);
+		return new ResponseEntity<CustomerErrorResponse>(error,HttpStatus.BAD_REQUEST);
 	}
 }
