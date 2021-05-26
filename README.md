@@ -222,14 +222,31 @@ Day Friday: 19-May-2021
 	--> git commit -m "Worked on handling exception in the same CRUD project with database"
 
 +----------------------------------------------------------------------------------------------------------------+
-Day Friday: 19-May-2021	
+Day Friday: 20-May-2021	
 
 	--> Completed section till 69.
 	--> Today worked on SaveOrUpdate api and delete api
-	--> Learn about session ( saveOrUpdate() method ) which will save objet if id is not provided in response
+	--> Learn about session ( saveOrUpdate() method ) which will save objet if id is not provided in request
 		or it is 0 or null , and if id is provided then this method will update the customer.
 	--> CRUD database project with REST ,hibernate and Spring is completed now
 	--> All operations are now working fine with exception handling
 	--> Now moving forward to learn section 70 ( Spring Boot )
 	--> git commit -m "CRM project is completed now with its CRUD APIs and exception handling".
++----------------------------------------------------------------------------------------------------------------+
+Day Friday: 26-May-2021	
+
+	-->Today completed section 70 , Spring Boot started YAAYYY!
+	--> It interesting to learn as the configuration part got smooth.
+	--> It removes all lengthy configuration part.
+	--> I created new project with spring initializr ( https://start.spring.io )
+	--> But i faced error with POM with latest version of spring boot.
+	--> So i changed parent version to 2.1.4 , it resolved the issue for POM.
+	--> But also faced issue for Junit testing.
+	--> I opened junit testing class and delete import for @Test annotation and just press ctrl+shift+O,
+		it resolved the imports automatically 
+	--> Then my 'FirstApp' spring boot app run successfully.( Project name :- FirstApp )
+	--> Also created a first rest controller to handle '/' will give hello world result.
+	--> At the end everything works fine .
+	--> git commit -m "Spring boot first application is now successfully running "
+	
 +----------------------------------------------------------------------------------------------------------------+
