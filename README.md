@@ -250,3 +250,14 @@ Day Friday: 26-May-2021
 	--> git commit -m "Spring boot first application is now successfully running "
 	
 +----------------------------------------------------------------------------------------------------------------+
+Day Friday: 3-June-2021	
+
+	--> today completed practical of spring boot devtools
+	--> by devtools api there is no need to restart application after every modification it restarts 
+	    automatically.
+	--> and Spring boot actuator practical is also completed with its security
+	--> Actuator api is used to monitor website by ( /health , /info ,/beans and manymore ) with base path
+		/acutator.
+	--> health and info is accessible by default to include others need to add them in app properties file.
+	--> git commit -m "Spring boot devtools and actutor completed"
++----------------------------------------------------------------------------------------------------------------+
